@@ -1,0 +1,71 @@
+* {
+	-webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+html {
+	min-height: 100%;
+}
+body {
+	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+	-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+	-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+	font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background: linear-gradient(to bottom, gray, #d3d3d3);
+	overflow-x: hidden;
+}
+
+.km-view .km-content h2 {
+	margin: 1.5em 0 1em 1.5em;
+	padding-left: 0;
+	font-size: 3em;
+}
+.row {
+	height: 350px;
+	width: 20000px;
+	margin: 0 0 4em 4em;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+.box {
+	width: 187px;
+	height: 350px;
+	margin: 0.5em;
+	float: left;
+	background: #26302C;
+	color: white;
+}
+h4 {
+	text-align: center;
+}
+
+img {
+	height: 250px;
+	width: 187px;
+}
+
+#drawer {
+	height: 10000px;
+	width: 400px;
+}
+#drawer h2 {
+	margin: 1em auto;
+	text-align: center;
+}
+#drawer img {
+	display: block;
+	margin: 0 auto;
+}
+#drawer button {
+	background: green !important;
+	color: white !important;
+	width: 75%;
+	display: block;
+	font-size: 2em;
+	margin: 2em auto;
+}
+.km-play {
+	top: 3px;
+}
